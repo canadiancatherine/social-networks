@@ -31,7 +31,7 @@ def get_graph():
     """
 
     # TODO: Change this parameter if you'd like to change the size of the graph (social network)
-    graph_size = 4
+    graph_size = 40
 
     # Generate a random graph (with a 60% probability of edge creation)
     G = nx.gnp_random_graph(graph_size, 0.60)
